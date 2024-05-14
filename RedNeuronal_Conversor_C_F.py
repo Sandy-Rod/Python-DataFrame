@@ -3,7 +3,7 @@ import tensorflow as tf
 import matplotlib.pyplot as plt
 
 def conversor_c_f(grados):
-	F= (grados *1.8) +32
+	F = (grados *1.8) +32
 	return F
 
 # datos de entrenamiento
