@@ -1,0 +1,21 @@
+@relation melanoma_nominal
+@attribute time numeric
+@attribute age numeric
+@attribute year numeric
+@attribute thickness numeric
+@attribute sex_nominal {hombre,mujer}
+@attribute ulcer_nominal {no,yes}
+@attribute status_nominal {muerte_m,muerte_ot,sobrevive}
+@data
+10,76,1972,6.8,hombre,yes,muerte_ot
+30,56,1968,0.7,hombre,no,muerte_ot
+35,41,1977,1.3,hombre,no,sobrevive
+99,71,1968,2.9,mujer,no,muerte_ot
+185,52,1965,12.1,hombre,yes,muerte_m
+204,28,1971,4.8,hombre,yes,muerte_m
+210,77,1972,5.2,hombre,yes,muerte_m
+232,60,1974,3.2,mujer,yes,muerte_ot
+232,49,1968,12.9,hombre,yes,muerte_m
+279,68,1971,7.4,mujer,yes,muerte_m
+295,53,1969,4.2,mujer,yes,muerte_m
+355,64,1972,0.2,mujer,yes,muerte_ot
