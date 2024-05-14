@@ -1,3 +1,3 @@
 # DataFrame
 
-practicando con ** DataFrame - pandas - matplotlib **
+practicando con DataFrame - pandas - matplotlib
